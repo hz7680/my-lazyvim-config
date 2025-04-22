@@ -4,3 +4,10 @@
 
 
 vim.opt.winbar = "%=%m %f"
+
+vim.g.lazyvim_mini_snippets_in_completion = true
+
+
+local opt = vim.opt
+
+opt.wrap = true
