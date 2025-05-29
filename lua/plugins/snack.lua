@@ -1,4 +1,4 @@
-local styles = require('snacks').config.styles
+local styles = require("snacks").config.styles
 
 styles.borderFloatTerminal = {
   relative = "editor",
@@ -7,7 +7,7 @@ styles.borderFloatTerminal = {
   height = 0.9,
   width = 0.9,
   zindex = 50,
-  border = "rounded"
+  border = "rounded",
 }
 
 return {
@@ -15,8 +15,8 @@ return {
   opts = {
     terminal = {
       win = {
-        style = "borderFloatTerminal"
-      }
-    }
-  }
+        style = "borderFloatTerminal",
+      },
+    },
+  },
 }

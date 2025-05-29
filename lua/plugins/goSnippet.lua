@@ -4,7 +4,7 @@ return {
     servers = {
       gopls = {
         keys = {
-          { "<leader>ct", "<S-a> `json:\"\"`<ESC>h", desc = "add tag for struct field" },
+          { "<leader>ct", '<S-a> `json:""`<ESC>hi', desc = "add tag for struct field" },
         },
       },
     },
